@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(int argc, char const *argv[])
+{
+    int number = 9053435, count;
+
+    count = printf("%d", number);
+    printf("\ncount : %d\n", count);
+
+    return 0;
+}
