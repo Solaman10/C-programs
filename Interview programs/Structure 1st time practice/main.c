@@ -2,7 +2,7 @@
 
 int main()
 {
-    struct showRoom
+    struct kalloorani
 {
     char Tv[20];
     int price;
@@ -11,14 +11,14 @@ int main()
 };
     
     
-    struct showRoom kalloorani;
+    struct kalloorani showRoom;
     printf("Enter the Tv name , price, model, color of the Tv: \n");
-    scanf("%s %d %d %s",&kalloorani.Tv,&kalloorani.price,&kalloorani.model,&kalloorani.color);
+    scanf("%s %d %d %s",&showRoom.Tv,&showRoom.price,&showRoom.model,&showRoom.color);
     
-    printf("\n\nEnter the Tv compny name: %s\n",kalloorani.Tv);
-    printf("Tv's price: %d\n",kalloorani.price);
-    printf("Enter the model of Tv: %d\n",kalloorani.model);
-    printf("Enter the color of Tv: %s\n",kalloorani.color);
+    printf("\n\nEnter the Tv compny name: %s\n",showRoom.Tv);
+    printf("Tv's price: %d\n",showRoom.price);
+    printf("Enter the model of Tv: %d\n",showRoom.model);
+    printf("Enter the color of Tv: %s\n",showRoom.color);
     
     return 0;
 }
