@@ -8,7 +8,7 @@ int main()
     
     for(int i=0;i<strlen;i++)
     {
-        if(str[i+1]==' ' || str[i+1]==',')
+        while(str[i+1]==' ' || str[i+1]==',')
         {
             i++;
         }
