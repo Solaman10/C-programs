@@ -20,7 +20,7 @@ int main()
     max=a[0];
     scndMax=0;
     
-    for(i=0;i<n;i++)
+    for(i=1;i<n;i++)
     {
             if(max<a[i])
             {
